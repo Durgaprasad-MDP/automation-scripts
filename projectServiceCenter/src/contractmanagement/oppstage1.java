@@ -55,7 +55,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
         Thread.sleep(6000);
 
         // Click on the desired opportunity
-        WebElement opportunity = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@title=\"test\"]")));
+        WebElement opportunity = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@title=\"Srinivas Test\"]")));
         opportunity.click();
         Thread.sleep(6000);
 
